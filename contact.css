@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*text-align: center;*/
+    background-color: black;
+}
+
+.contact{
+    color: #fff;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    height: 400px;
+}
+
+.contact h2{
+    text-align: center;
+    font-family: bignoodletitling;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    font-size: 60px;
+    margin: 0;
+}
+.contact p{
+    text-align: center;
+    padding: 2% 0;
+    font-family: marieda;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}

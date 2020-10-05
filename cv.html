@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chante Bacher CV</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel = "stylesheet" type = "text/css" href="cv.css">
+
+</head>
+<body>
+    <div class = "loader"></div>
+    <div id = "box-area" hidden>
+        <header>
+            <div id="wrapper">
+                <div class="logo">
+                    <a href="#">CB</a>
+                </div>
+                <nav>
+                    <a href="#About">About</a>
+                    <a href="#Resume">Resume</a>  
+                    <a href="/contact.html">Contact</a> 
+                </nav>
+            </div>
+        </header>
+        <div class="image">
+            <img src = "avatar.jpg" alt = "My CV Image" width = 100%>
+            <div class="text">
+                <h2>Chanté Bacher</h2>
+                <h2>3rd year Information Technology Student</h2> 
+                <div class = "motivation"></div>
+                <h4 id = "text"></h4>
+            </div>
+        </div>
+            <div class="split">
+                <div id="About"></div>
+
+                <div class="about" >
+                    <h2>About</h2>
+                    <p> 
+                        I am a 3rd year student at the North West University. 
+                        I am currently completing my Bachelors Degree in Information Technology.
+                        I am analytical of nature. I aspire to become a business analyst.
+                        I enjoy bringing people and technology together.
+                        I enjoy rock climbing, squash and painting in my free time.
+                        </br>
+                        </br>
+                        This website is written in HTML5, CSS3 and Vanilla JavaScript.
+                    </p> 
+                    <div id="Resume"></div> 
+                </div>
+
+                
+
+                <div class="resume">
+                    <h2 id = "Resume">Resume</h2>
+
+                    <div class="container-resume">
+                        <div class="box-education">
+                            <h3>Education</h3>
+                        </div>
+                        <div class = "box-education-content">
+                            <p>
+                                <ul style = "list-style: none">
+                                    <li><b><h3>Bellville High School (Secondary Education)</h3></b></li>
+                                    <h3>2013 - 2017</h3>
+                                    <br/>
+                                    <br/>
+                                    I finished high school with six distinctions. 
+                                    I was part of the student council and enjoyed playing netball. 
+                                    I completed a CompTIA IT Fundamentals course in 2016 and placed second in the competition.
+                                    <br/>
+                                    <br/>
+                                    <li><b><h3>North West University (Tertiary Education)</h3></b></li>
+                                    <h3>2018 - 2020</h3>
+                                    <br/>
+                                    <br/>
+                                    I am currently a 3rd year student in BSc Information Technology. 
+                                    I have received a Golden Key award for my academic achievements. 
+                                    I have received distinctions in all Information Technology related subjects. 
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box-work-experience">
+                        <div class="box-work-experience-head">
+                            <h3>Work Experience</h3>
+                        </div>
+                        <div class = box-work-experience-content>
+                            <p>
+                                <ul style = "list-style: none">
+                                
+                                    <li><b><h3>Vital Health Foods Intern for Business Intelligence</h3></b></li>
+                                    <h3>1 July 2019 - 8 July 2019</h3>
+                                    <br/>
+                                    I worked under a Business Intelligence Analyst and an IT Manager. Here I learned the company's business functions and processes. I sat in with meetings and had experience with training an employee how to use a newly implemented system, created by Power BI. 
+                                    <br/>
+                                    <br/>
+                                    <li><b><h3>Baconville Restaurant Waitress</h3></b></li>
+                                    <h3>4 Dec 2019 - 9 Jan 2020</h3>
+                                    <br/>
+                                    I was a full-time waitress. Here I learned new approaches to communication and people, as well as working under pressure. Disputes with customers were handled professionally and problems were solved, keeping the customer satisfied. 
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                
+                    <div class="container-skills">
+                        <div class="box-skills">
+                            <h3>Skills</h3>
+                        </div>
+                        <div class = "box-skills-content">
+                            <p>
+                                <ul>
+                                    <li><h4>Bilingual in English and Afrikaans</h4></li>
+                                    <br/>
+                                    <br/>
+                                    <li><h4>Database Design</h4></li>
+                                    <br/>
+                                    <br/>
+                                    <li><h4>Data Modelling</h4></li>
+                                    <br/>
+                                    <br/>
+                                    <li><h4>Languages:</43></li>
+                                        Python, C++, C#, Java, JavaScript, HTML, CSS
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+                
+                    <div class="container-profile">
+
+                        <div class="box-profile">
+                            <h2>Profile</h2>
+                        </div>
+                        
+                        <div class = "container">
+
+                            <div class = "row">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4 id = "desc"><b></b></h4>
+                                        <h4 id = "full_name"><b></b></h4> 
+                                    </div>
+                                    <div class = "card-body">
+                                        <p>
+                                            In this project I created a website that hosts my CV. 
+                                            <br/>
+                                            You're welcome to have a look at the code by clicking on the button below.
+                                        </p>
+                                        <a href="https://github.com/ChanteBacher/chantebacher.github.io" class = "btn">View</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <div id = "Joke" >
+                        <h2 id ="joke"></h2>
+                    </div>
+                </div>
+            </div> 
+        </div>    
+    <script src = "https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src = "cv.js"></script>  
+</body>
+</html>
