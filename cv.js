@@ -113,13 +113,10 @@ fetch(
     };
 
     //Get Request from GitHub
-
-      
-    var newToken = "cafcf62722c61b3b4894412e579803f479c19e10";
-    
+          
     axios.get('https://api.github.com/users/ChanteBacher/repos', {
         headers:  {
-            Authorization: `Bearer ${newToken}`
+            
         },
  
     })
